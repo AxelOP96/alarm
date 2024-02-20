@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(42, 42, 91);
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.container{
+    margin: 2em auto;
+    border-radius: 3px;
+    box-shadow: 1px 7px 16px 0px rgba(0,0,0,0.75);
+    width: 30%;
+}
+.head{
+    padding: 0.5em 1em 3em;
+    background-color: rgb(50, 50, 125);
+}
+.alarms{
+    padding:0 2em 2em;
+    background-color: rgb(86, 99, 157);
+}
+.icon{
+    width: 25px;
+}
+.text{
+    color: rgb(155, 144, 144);
+}
+.off{
+    color: rgb(138, 157, 191);
+}
+.add{
+    background-color: rgb(81, 149, 249);
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    border-radius: 50%;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 70px;
+    margin-left: 70%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.mid{
+    font-size: 14px;
+}
+.days{
+    margin: 1em 0;
+}
+.alarm{
+    width: 30px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: rgb(41, 41, 64);
+}
+.circle{
+    width: 20px;
+    background-color: rgb(41, 41, 64);
+    border-radius: 50%;
+    height: 20px;
+    position: relative;
+    top: -5px;
+}
+.circle--on{
+    width: 20px;
+    background-color: rgb(81, 149, 249);
+    border-radius: 50%;
+    height: 20px;
+    position: relative;
+    top: -5px;
+    left: 15px;
+}
